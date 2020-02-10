@@ -8,3 +8,10 @@
 * {
     outline: 1px dotted black;
 }
+
+
+/* Hope out of css folder and go to img folder */
+/* %20 if need space in name */
+body {
+  background: url(../img/star.png);
+}
