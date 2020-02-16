@@ -1,5 +1,8 @@
 # Starry Google Doodle
-50+ words about your Google Doodle.
+I adore the stars, and they really inspire me. They make you wonder when you gaze at them. They are constantly present and always shine bright. Whether it’s the stars you see every night, or shooting stars, they always leave me in awe. They are comforting, reassuring, and motivational. They are so pretty, and I think everyone should look up at them every once in a while!
+I really love and am passionate about the stars and the sky, and I did a Google doodle of them in high school in art class. I wanted to focus on stars this time and show myself how I’ve improved since then.
+I want to do justice to a topic that I’m so passionate about!
+
 
 
 ## Collage
@@ -8,5 +11,5 @@
 
 ## Resources (SVGS and collage)
 
-* [Favicon from flaticon] 
-(Fav)Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+* [Favicon from flaticon]: 
+Made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
