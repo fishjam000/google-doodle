@@ -16,6 +16,14 @@
 }
 
 
+#heart1 {
+  fill: red;
+}
+
+#heart2 {
+  fill: green;
+}
+
 
 /* Hope out of css folder and go to img folder */
 /* %20 if need space in name */
