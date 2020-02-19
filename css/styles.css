@@ -5,13 +5,20 @@
   * Outline Elements
 */
 
-* {
-    outline: 1px dotted black;
+
+/* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+ */
+/* Doodle Stage */
+#stage {
+  background: #ccc;
+  height: 300px;
+  width: 600px;
 }
+
 
 
 /* Hope out of css folder and go to img folder */
 /* %20 if need space in name */
-body {
+/* body {
   background: url(../img/star.png);
-}
+} */

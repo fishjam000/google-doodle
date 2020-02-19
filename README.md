@@ -11,5 +11,5 @@ I want to do justice to a topic that I’m so passionate about!
 
 ## Resources (SVGS and collage)
 
-* [Favicon from flaticon]: 
+* [Star Favicon from flaticon]: 
 Made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
