@@ -13,16 +13,39 @@
   background-image: url(../img/background.svg);
   height: 300px;
   width: 600px;
+  position: relative;
+}
+
+#stage:hover #constellation_stars {
+  fill: lightcyan;
+  stroke: white;
+}
+
+#hanging_stars {
+  position: absolute;
+}
+
+#stars:hover {
+  fill: white;
+}
+
+#google {
+  position: absolute;
+  top: 75px;
+  left: 50px;
 }
 
 
+
+
+/* 
 #heart1 {
   fill: red;
 }
 
 #heart2 {
   fill: green;
-}
+} */
 
 
 /* Hope out of css folder and go to img folder */
