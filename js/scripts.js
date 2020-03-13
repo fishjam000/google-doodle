@@ -44,7 +44,7 @@ gsap.fromTo("#hanging_stars, #strings", {
 
 var tlstars = new TimelineMax();
 
-tlstars.staggerFromTo("#hanging_stars", 2, {
+tlstars.staggerFromTo("#hanging_stars", 2.25, {
   skewY:".3deg"
 }, {
   skewY:"-.3deg",
