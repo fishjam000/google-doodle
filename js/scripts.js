@@ -10,6 +10,7 @@ console.log('OK');
     
 //   });
 
+// Fade in Google
 gsap.fromTo("#google", {
   opacity: 0
 },
@@ -19,7 +20,7 @@ gsap.fromTo("#google", {
   duration: 1.75
 })
 
-
+// Blue shooting star intro animation
 gsap.fromTo("#shooting_star_tail, #shooting_star_head", {
   x: -700,
   y: -1050,
@@ -33,6 +34,7 @@ gsap.fromTo("#shooting_star_tail, #shooting_star_head", {
     delay: 1
 });
 
+// Big star's rotation
 var star = document.getElementById("big_star")
 var tl = new TimelineLite;
 
@@ -41,6 +43,7 @@ tl.to(star, {rotation:10, transformOrigin: "50% 50%"})
 
 // transformOrigin:"50% 50%"
 
+// Intro animation for hanging stars
 gsap.fromTo("#hanging_stars, #strings", {
   y: -300,
 },
@@ -52,6 +55,7 @@ gsap.fromTo("#hanging_stars, #strings", {
 });
 
 
+// Swaying animation for hanging stars
 var tlstars = new TimelineMax();
 
 tlstars.staggerFromTo("#hanging_stars", 2, {
@@ -61,3 +65,7 @@ tlstars.staggerFromTo("#hanging_stars", 2, {
   repeat: -1,
   yoyo: true
 });
+
+
+// Animating small shooting stars in the background
+
