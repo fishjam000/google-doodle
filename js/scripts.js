@@ -22,7 +22,7 @@ gsap.fromTo("#google", {
 
 // Blue shooting star intro animation
 gsap.fromTo("#shooting_star_tail, #shooting_star_head", {
-  x: -700,
+  x: -750,
   y: -1050,
 },
             
@@ -39,7 +39,7 @@ var star = document.getElementById("big_star")
 var tl = new TimelineLite;
 
 tl.to(star, {rotation:10, transformOrigin: "50% 50%"})
-  .to(star, {rotation:-10, ease:Sine.easeInOut, repeat:-1, yoyo:true, transformOrigin:"50% 50%", repeatDelay: .2, duration: 1.4 })
+  .to(star, {rotation:-10, ease:Sine.easeInOut, repeat:-1, yoyo:true, transformOrigin:"50% 50%", repeatDelay: .15, duration: 1.25 })
 
 // transformOrigin:"50% 50%"
 
@@ -69,3 +69,61 @@ tlstars.staggerFromTo("#hanging_stars", 2, {
 
 // Animating small shooting stars in the background
 
+// Bottom left shooting star AKA meteor
+gsap.fromTo("#meteor_1", {
+  x: -50,
+  y: -150
+},
+            
+    { 
+  x: 100,
+  y: -5,
+  duration: 1.2,
+  repeat: -1,
+  repeatDelay: 2
+})
+
+
+// Second from left meteor
+gsap.fromTo("#meteor_2", {
+  x: 160,
+  y: -90
+},
+            
+    { 
+  x: 250,
+  y: -2,
+  duration: 1.25,
+  repeat: -1,
+  repeatDelay: 4
+})
+
+
+// Second from right meteor
+gsap.fromTo("#meteor_3", {
+  x: 325,
+  y: -100
+},
+            
+    {
+  x: 450,
+  y: 0,
+  duration: 1.6,
+  repeat: -1,
+  repeatDelay: 3
+})
+
+
+// Rightmost meteor
+gsap.fromTo("#meteor_4", {
+  x: 350,
+  y: -250
+},
+            
+    {
+  x: 475,
+  y: -135,
+  duration: 1.5,
+  repeat: -1,
+  repeatDelay: 4
+})
