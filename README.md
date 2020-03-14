@@ -13,3 +13,5 @@ I want to do justice to a topic that I’m so passionate about!
 
 * [Star Favicon from flaticon]: 
 Made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+* Resource for how to skew the hanging stars: https://greensock.com/forums/topic/15187-question-about-staggering-multiple-animations/
