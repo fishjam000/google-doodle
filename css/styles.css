@@ -17,18 +17,6 @@
   overflow: hidden;
 }
 
-#stage:hover #constellation_stars {
-  fill: lightcyan;
-  stroke: white;
-}
-
-#hanging_stars {
-  position: absolute;
-}
-
-#stars:hover {
-  fill: white;
-}
 
 #google {
   position: absolute;
@@ -37,16 +25,12 @@
 }
 
 
-
-
-/* 
-#heart1 {
-  fill: red;
+#meteor_1, #meteor_2, #meteor_3, #meteor_4 {
+  position: absolute;
 }
 
-#heart2 {
-  fill: green;
-} */
+
+
 
 
 /* Hope out of css folder and go to img folder */
