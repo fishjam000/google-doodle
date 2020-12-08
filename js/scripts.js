@@ -1,15 +1,5 @@
 console.log('OK');
 
-// gsap.from( '#heart1', {
- 
-//     x: -600,
-//     fill: 'orange',
-//     opacity: 0,
-//     scale: .5,
-//     duration: 3
-    
-//   });
-
 // Fade in Google
 gsap.fromTo("#google", {
   opacity: 0
@@ -35,11 +25,11 @@ gsap.fromTo("#shooting_star_tail, #shooting_star_head", {
 });
 
 // Big star's rotation
-var star = document.getElementById("big_star")
+var star = document.getElementById("big_star");
 var tl = new TimelineLite;
 
 tl.to(star, {rotation:10, transformOrigin: "50% 50%"})
-  .to(star, {rotation:-10, ease:Sine.easeInOut, repeat:-1, yoyo:true, transformOrigin:"50% 50%", repeatDelay: .15, duration: 1.25 })
+  .to(star, {rotation:-10, ease:Sine.easeInOut, repeat:-1, yoyo:true, transformOrigin:"50% 50%", repeatDelay: .15, duration: 1.25 });
 
 // transformOrigin:"50% 50%"
 
@@ -81,7 +71,7 @@ gsap.fromTo("#meteor_1", {
   duration: 1.2,
   repeat: -1,
   repeatDelay: 2
-})
+});
 
 
 // Second from left meteor
@@ -96,7 +86,7 @@ gsap.fromTo("#meteor_2", {
   duration: 1.25,
   repeat: -1,
   repeatDelay: 4
-})
+});
 
 
 // Second from right meteor
@@ -111,7 +101,7 @@ gsap.fromTo("#meteor_3", {
   duration: 1.6,
   repeat: -1,
   repeatDelay: 3
-})
+});
 
 
 // Rightmost meteor
@@ -126,4 +116,4 @@ gsap.fromTo("#meteor_4", {
   duration: 1.5,
   repeat: -1,
   repeatDelay: 4
-})
+});
